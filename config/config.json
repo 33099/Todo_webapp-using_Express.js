@@ -1,26 +1,21 @@
 {
   "development": {
     "username": "postgres",
-    "password": "1234",
-    "database": "wd-todo-dev",
+    "password": "divya03",
+    "database": "todo_db_dev",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
     "username": "postgres",
-    "password": "1234",
-    "database": "wd-todo-test",
+    "password": "divya03",
+    "database": "todo_db_test",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
-    "username": "postgres",
-    "password": "1234",
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
-  }
-  "use_env_variable": "DATABASE_URL",
+
+    "use_env_variable": "DATABASE_URL",
     "dialect": "postgres",
     "dialectOptions": {
        "ssl": {
@@ -28,4 +23,5 @@
          "rejectUnauthorized": false
        }
      }
+   }
 }
