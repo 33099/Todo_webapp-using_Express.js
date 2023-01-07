@@ -1,0 +1,20 @@
+body{
+    padding-left: 15px;
+    color:rgb(10, 10, 8);
+    background-color: rgb(190, 190, 241);
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+h1{
+    padding: 20px;
+}
+table{
+    height: auto;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+td, th{
+    padding: 15px;
+    border-bottom: 1px solid rgba(155, 176, 121, 0.401);
+}
