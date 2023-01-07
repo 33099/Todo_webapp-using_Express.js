@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon -e js,ejs",
-    "start:prod":"nodemon index.js",
+    "start:prod": "nodemon index.js",
     "pretest": "NODE_ENV=test npx sequelize-cli db:drop && NODE_ENV=test npx sequelize-cli db:create",
     "test": "NODE_ENV=test jest --detectOpenHandles",
     "prepare": "husky install"
@@ -22,10 +22,7 @@
   },
   "author": "Divya Sharma",
   "license": "ISC",
-  "bugs": {
-  
-  },
-  
+  "bugs": {},
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.2",
@@ -40,7 +37,8 @@
     "lint-staged": "^13.0.3",
     "nodemon": "^2.0.20",
     "prettier": "^2.7.1",
-    "sequelize-cli": "^6.5.2",
-    "supertest": "^6.3.0"
+    "sequelize-cli": "^6.5.1",
+    "supertest": "^6.3.0",
+    "tailwindcss": "^3.2.4"
   }
 }
