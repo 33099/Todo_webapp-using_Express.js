@@ -5,14 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon -e js,ejs",
-    "start:prod":"node index.js",
+    "start:prod":"nodemon index.js",
     "pretest": "NODE_ENV=test npx sequelize-cli db:drop && NODE_ENV=test npx sequelize-cli db:create",
     "test": "NODE_ENV=test jest --detectOpenHandles",
     "prepare": "husky install"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kshitijv256/ejs_templates.git"
+    "type": "git"
   },
   "keywords": [],
   "lint-staged": {
@@ -21,12 +20,12 @@
       "prettier --write ."
     ]
   },
-  "author": "Kshitij Verma",
+  "author": "Divya Sharma",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kshitijv256/ejs_templates/issues"
+  
   },
-  "homepage": "https://github.com/kshitijv256/ejs_templates#readme",
+  
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.2",
