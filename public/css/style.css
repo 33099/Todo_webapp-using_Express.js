@@ -10,7 +10,6 @@
   border-color: #e5e7eb;
   /* 2 */
 }
-
 ::before,
 ::after {
     --tw-content: "";
@@ -29,7 +28,6 @@ html {
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
 }
-
 /*
 1. Remove the margin in all browsers.
 2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
@@ -58,7 +56,6 @@ hr {
 /*
 Add the correct text decoration in Chrome, Edge, and Safari.
 */
-
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
 }
@@ -160,10 +157,7 @@ select {
 1. Correct the inability to style clickable types in iOS and Safari.
 2. Remove default button styles.
 */
-
 button,
-
-
 [type="button"],
 [type="reset"],
 [type="submit"] {

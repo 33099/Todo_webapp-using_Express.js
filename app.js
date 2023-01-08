@@ -1,9 +1,10 @@
-const express = require("express");
-const app = express();
 const { Todo } = require("./models");
 const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 const path = require("path");
+
+app.get("/", function (request, response) {
+  response.send("Hello World");
 app.set("view engine", "ejs");
 // eslint-disable-next-line no-undef
 app.use(express.static(path.join(__dirname, "public")));

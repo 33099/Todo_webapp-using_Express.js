@@ -22,10 +22,8 @@ describe("Todo Application", function () {
       dueDate: new Date().toISOString(),
       completed: false,
     });
-
     expect(response.statusCode).toBe(302);
   });
-
   // test("Marks a todo with the given ID as complete", async () => {
   //   const response = await agent.post("/todos").send({
   //     title: "Buy milk",
@@ -56,6 +54,7 @@ describe("Todo Application", function () {
     });
     const response = await agent.get("/todos");
     const parsedResponse = JSON.parse(response.text);
+
     expect(parsedResponse.length).toBe(3);
     expect(parsedResponse[2]["title"]).toBe("Buy ps3");
   });
